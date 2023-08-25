@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(180deg, #FA192B 0%, #082DC3 100%);
+    color: #fff;
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+   .logo{
+       position: absolute;
+width: 107px;
+height: 107px;
+border-radius: 50%;
+left: 29px;
+top: 7px;
+  }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+ 
+  }
+  
+  .menu a {
+     width: 100px;
+     height: 37px;
+     left: 276px;
+     top: 39px;
+
+     font-family: 'Lato';
+     font-style: normal;
+
+     font-size: 23px;
+
+     color: #fff;
+     text-decoration: none;
+  }
+  
+  #about {
+    background: linear-gradient(180deg, #FDEECD 0%, rgba(125, 250, 252, 0.57) 100%);
+    padding: 40px 0;
+  }
+  
+  #about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+  .text-section {
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .text-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #skills {
+     background: linear-gradient(180deg, rgba(125, 250, 252, 0.51) 0%, #FCB0B7 100%);
+    padding: 40px 0;
+  }
+  
+  #skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #skills h3 {
+    font-size: 17px;
+  }
+  
+  .skills-description ul {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 37px;
+    margin-bottom: 20px;
+  }
+  
+  #portfolio {
+    background: linear-gradient(180deg, rgba(252, 176, 183, 0.88) 0%, rgba(104, 239, 186, 0.584) 40.94%, rgba(53, 247, 111, 0.31) 100%);
+    padding: 40px 0;
+  }
+  
+  #portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    position: relative;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+  }
+  
+  .portfolio-item-overlay h4,
+  .portfolio-item-overlay a {
+    color: #fff;
+  }
+  
+  #contact {
+    background: linear-gradient(180deg, rgba(53, 247, 111, 0.31) 0%, rgba(55, 80, 245, 0.84) 100%);
+    padding: 40px 0;
+    text-align: center;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 37px;
+
+color: #000000;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  #contact button {
+    background-color: #fff;
+    color: #4F84C4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #Contact {
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .Container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .Contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .Contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .Contact-item img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
